@@ -26,9 +26,29 @@
 #contact {
     text-decoration: none;
     color: #777;
-    margin-right: 15%;
+    margin-right: 16%;
     padding: 12px;
     float: right;
+}
+
+#contact:hover {
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-bottom-color: maroon;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: maroon;
+    color: #fff;
+    padding: 12px;
+    float: right;
+}
+
+#contact:hover #linkerc {
+    background-color: #000;
+    color: #eee;
+    font-size: 18px;
+    font-family: monospace, 'Courier New';
+    text-shadow: -1px -1px 3px #fff;
 }
 
 #portfolio {
@@ -36,6 +56,40 @@
     color: #777;
     padding: 12px;
     float: right;
+}
+
+#portfolio:hover {
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-bottom-color: purple;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: purple;
+    color: #fff;
+    padding: 12px;
+    float: right;
+}
+
+#portfolio:hover #linkerp {
+    background-color: #000;
+    color: #eee;
+    font-size: 18px;
+    font-family: monospace, 'Courier New';
+    text-shadow: -1px -1px 3px #fff;
+}
+
+#linkerp {
+    background-color: #fff;
+    color: #666;
+    font-size: 18px;
+    font-family: monospace, 'Courier New';
+}
+
+#linkerc {
+    background-color: #fff;
+    color: #666;
+    font-size: 18px;
+    font-family: monospace, 'Courier New';
 }
 
 #about {
@@ -65,8 +119,8 @@
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
     line-height: 24px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #box {
