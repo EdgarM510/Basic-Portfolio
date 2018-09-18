@@ -24,6 +24,20 @@
     font-size: 18px;
 }
 
+#contacton {
+    text-decoration: none;
+    border-style: solid;
+    border-width: 3px;
+    border-bottom-color: maroon;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: maroon;
+    color: #fff;
+    padding: 12px;
+    float: right;
+    margin-right: 16%;
+}
+
 #contact {
     text-decoration: none;
     border-style: solid;
@@ -87,6 +101,26 @@
     text-shadow: -1px -1px 3px #fff;
 }
 
+#portfolioon {
+    text-decoration: none;
+    border-style: solid;
+    border-width: 3px;
+    border-bottom-color: purple;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: purple;
+    color: #fff;
+    padding: 12px;
+    float: right;
+}
+
+#linkera {
+    background-color: #fff;
+    color: #666;
+    font-size: 18px;
+    font-family: monospace, 'Courier New';
+}
+
 #linkerp {
     background-color: #fff;
     color: #666;
@@ -103,10 +137,34 @@
 
 #about {
     text-decoration: none;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #fff;
     background-color: #fff;
     color: #777;
     padding: 12px;
     float: right;
+}
+
+#about:hover {
+    text-decoration: none;
+    border-style: solid;
+    border-width: 3px;
+    border-bottom-color: goldenrod;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: goldenrod;
+    color: #fff;
+    padding: 12px;
+    float: right;
+}
+
+#about:hover #linkera {
+    background-color: #000;
+    color: #eee;
+    font-size: 18px;
+    font-family: monospace, 'Courier New';
+    text-shadow: -1px -1px 3px #fff;
 }
 
 #abouton {
@@ -170,7 +228,7 @@ h1 {
 #punch {
     background-color: #666;
     color: #ccc;
-    padding: 20px;
+    padding: 8px;
     text-align: center;
     margin: 1px;
 }
