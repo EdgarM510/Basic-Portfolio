@@ -10,29 +10,42 @@
 </head>
 <body background="assets/images/hip-square.png">
     <div class="topbar">
-            <div id="name"><mark id="marker">&nbsp;Edgar Mendoza&nbsp;</mark></div>
+            <div id="name"><mark class="marker">&nbsp;Edgar Mendoza&nbsp;</mark></div>
         <div id="rbtns">
             <a id="about" href="index.html"><mark id="linkera">&nbsp;About&nbsp;</mark></a>
             <a id="portfolio" href="portfolio.html"><mark id="linkerp">&nbsp;Portfolio&nbsp;</mark></a>
-            <a id="contacton" href="contact.html"><mark id="marker">&nbsp;Contact&nbsp;</mark></a>
+            <a id="contacton" href="contact.html"><mark class="marker">&nbsp;Contact&nbsp;</mark></a>
         </div>
     </div>
     <div id="bod">
         <div id="box">
             <h1>Contact</h1>
-            <br><br>
-            Name<br>
-            [___]<br>
-            E-mail<br>
-            [___]<br>
-            Message<br>
-            [___]<br>
-            [Submit]
+            <div class="contactform">                  
+                  <br>    <label for="cname">Name</label>
+                    <br>  <input type="text" id="cname" name="yourname" placeholder="John Smith">
+                  <br>
+                      <label for="cemail">E-Mail </label>
+                    <br>  <input type="text" id="cemail" name="youremail" placeholder="example@gmail.com">
+                  <br>
+                      <label for="bop">Is this business?</label>
+                    <br>  <select id="bop" name="businessorpersonal" placeholder="or personal?">
+                        <option value="business">Oh yeah, serious business</option>
+                        <option value="personal">Nah man, this is personal</option>
+                      </select>
+                  <br>
+                      <label for="msg">Message</label>
+                    <br>  <textarea id="msg" name="message" placeholder="Holler atcha boy" style="height:300px"></textarea>
+                  <br>
+                      <input type="submit" value="Submit">
+                  
+                    </form>
+                  </div>
+        
         </div>
     </div>
     <div class="botbar">
         <div id="punch">
-            <mark id="marker">&nbsp;Edgar Mendoza 2018 &copy;&nbsp;</mark>
+            <mark class="marker">&nbsp;Edgar Mendoza 2018 &copy;&nbsp;</mark>
         </div>
     </div>
 </body>
