@@ -1,8 +1,22 @@
+/* html {
+    min-height: 100%;
+} */
+
+ul {
+    position: absolute;
+}
+
+li {
+    display: inline-block;
+}
+
 .topbar {
+    display: flex;
+    justify-content: space-evenly;
     font-family: "Times New Roman", Times, serif;
     position: fixed;    
-    top: 0px;
-    left: 0px;
+    /* top: 0px; */
+    /* left: 0px; */
     width: 100%;
     padding-top: 6px;
     background-color: #fff;
@@ -18,10 +32,15 @@
     border-top-left-radius: 15px;
     background-color: #4aaaa5;
     color: #fff;
-    padding: 12px;
-    margin-left: 17%;
-    float: left;
+    padding: 8px;
+    /* position: absolute; */
+    /* margin-left: 17%; */
+    /* float: left; */
     font-size: 18px;
+}
+
+#rbtns {
+    display: flex;
 }
 
 #contacton {
@@ -33,9 +52,10 @@
     border-top-left-radius: 15px;
     background-color: maroon;
     color: #fff;
-    padding: 12px;
-    float: right;
-    margin-right: 16%;
+    padding: 8px;
+    /* position: absolute; */
+    /* float: right; */
+    /* margin-right: 16%; */
 }
 
 #contact {
@@ -44,9 +64,10 @@
     border-width: 3px;
     border-color: #fff;
     color: #777;
-    margin-right: 16%;
-    padding: 12px;
-    float: right;
+    /* margin-right: 16%; */
+    padding: 8px;
+    /* position: absolute; */
+    /* float: right; */
 }
 
 #contact:hover {
@@ -58,8 +79,9 @@
     border-top-left-radius: 15px;
     background-color: maroon;
     color: #fff;
-    padding: 12px;
-    float: right;
+    padding: 8px;
+    /* position: absolute; */
+    /* float: right; */
 }
 
 #contact:hover #linkerc {
@@ -76,8 +98,9 @@
     border-width: 3px;
     border-color: #fff;
     color: #777;
-    padding: 12px;
-    float: right;
+    padding: 8px;
+    /* position: absolute; */
+    /* float: right; */
 }
 
 #portfolio:hover {
@@ -89,8 +112,9 @@
     border-top-left-radius: 15px;
     background-color: purple;
     color: #fff;
-    padding: 12px;
-    float: right;
+    padding: 8px;
+    /* position: absolute; */
+    /* float: right; */
 }
 
 #portfolio:hover #linkerp {
@@ -110,8 +134,9 @@
     border-top-left-radius: 15px;
     background-color: purple;
     color: #fff;
-    padding: 12px;
-    float: right;
+    padding: 8px;
+    /* position: absolute; */
+    /* float: right; */
 }
 
 #linkera {
@@ -142,8 +167,9 @@
     border-color: #fff;
     background-color: #fff;
     color: #777;
-    padding: 12px;
-    float: right;
+    padding: 8px;
+    /* position: absolute; */
+    /* float: right; */
 }
 
 #about:hover {
@@ -155,8 +181,9 @@
     border-top-left-radius: 15px;
     background-color: goldenrod;
     color: #fff;
-    padding: 12px;
-    float: right;
+    padding: 8px;
+    /* position: absolute; */
+    /* float: right; */
 }
 
 #about:hover #linkera {
@@ -176,14 +203,16 @@
     border-top-left-radius: 15px;
     background-color: goldenrod;
     color: #fff;
-    padding: 12px;
-    float: right;
+    padding: 8px;
+    /* position: absolute; */
+    /* float: right; */
 }
 
 #bod {
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/hip-square.png");
-    background-size: 512px 512px;
-    /*width: 100%; There is a small gap on both sides of the background image*/
+    display: flex;
+    /* background-image: url("/assets/images/hip-square.png"); */
+    /* background-repeat: repeat; */
+    /* background-size: 512px 512px; */
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
     line-height: 24px;
@@ -192,6 +221,7 @@
 }
 
 #box {
+    width: 960px;
     background-color: #fff;
     padding: 20px;
     margin-top: 100px;
@@ -200,17 +230,21 @@
     margin-left: 15%;
     border-style: solid;
     border-width: 2px;
-    border-color: #ddd
+    border-color: #ddd;
 }
 
 h1 {
-    border-bottom: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    border-bottom: 2px solid #ccc;
     padding-bottom: 16px;
     padding-left: 20px;
-    color: #4aaaa5
+    color: #4aaaa5;
 }
 
 #pic {
+    margin-top: 20px;
     padding-right: 20px;
     padding-left: 10px;
     float: left;
