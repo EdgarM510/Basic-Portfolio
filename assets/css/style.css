@@ -223,8 +223,8 @@
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 36px;
+    font-family: Times, 'Times New Roman', serif;
+    font-size: 40px;
     font-weight: bolder;
     border-bottom: 2px solid #ccc;
     padding-bottom: 16px;
@@ -233,9 +233,10 @@ h1 {
 }
 
 #pic {
+    border: 2px solid #ccc;
     margin-top: 20px;
-    padding-right: 20px;
-    padding-left: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
     float: left;
     clear: both;
 }
